@@ -1,4 +1,4 @@
-package tn.esprit.services.implementation;
+package tn.mazed.services.implementation;
 
 import java.util.List;
 
@@ -6,9 +6,9 @@ import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 
-import tn.esprit.services.interfaces.AuctionServiceRemote;
 import tn.mazed.entities.Auction;
 import tn.mazed.entities.User;
+import tn.mazed.services.interfaces.AuctionServiceRemote;
 
 @Stateless
 public class AuctionService implements AuctionServiceRemote {

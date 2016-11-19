@@ -1,4 +1,4 @@
-package tn.esprit.services.interfaces;
+package tn.mazed.services.interfaces;
 
 import java.util.List;
 
